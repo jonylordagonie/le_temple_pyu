@@ -3,7 +3,7 @@
   justify-content: center;
 }
 @mixin btn--hover($color: $color-primary-light, $color-sec: $color-secondary-light) {
-  background: linear-gradient(0deg, $color 0%, $color-sec 100%);
+  background: linear-gradient(45deg, $color 0%, $color-sec 100%);
   box-shadow: $shadow, $shadow;
 }
 @mixin actif($color) {

@@ -1,20 +1,8 @@
-#reservation__ville {
-  display: flex;
-  @include align-justify-center;
-  background-color: $color-ville;
-  height: 60px;
-  gap: 20px;
-  i {
-    color: $color-footer;
-  }
-  input {
-    display: flex;
-    border: none;
-    background-color: inherit;
-  }
+.reservation{
+  background: center 30% url(../../public/img/presentation/lore.png) no-repeat;
 }
 .reservation__exploration {
-  background-color: $color-font;
+  background-color: rgba($color-font, .7);
   display: flex;
   flex-direction: column;
   @include align-justify-center;
@@ -63,15 +51,15 @@
     }
   }
 }
-.restaurent {
+.serveur {
   background-color: $color-font;
-  .restaurent__container {
+  .serveur__container {
     display: flex;
     flex-direction: column;
     margin: $margin;
     gap: 20px;
   }
-  .restaurent__card {
+  .serveur__card {
     border-radius: 15px;
     box-shadow: $shadow;
     a {
@@ -95,18 +83,18 @@
     }
     img {
       display: flex;
-      object-fit: cover;
+      object-fit:cover;
       border-radius: 15px 15px 0px 0;
       height: 130px;
     }
-    .restaurent__info__container {
+    .serveur__info__container {
       display: flex;
       justify-content: space-between;
       align-items: center;
       margin: 0 10px;
       height: 70px;
     }
-    .restaurent__card__info {
+    .serveur__card__info {
       display: flex;
       flex-direction: column;
     }
@@ -124,10 +112,16 @@
       width: 30%;
     }
   }
-  .restaurent{
+  .serveur{
   border-radius: 20px;
   margin:$margin;
-  .restaurent__container{
+  .recadrage{
+    object-position: 50% -180px;
+  }
+  .lore{
+    object-position: 50% -100px;
+  }
+  .serveur__container{
     padding: 15px;
     flex-direction: row;
     justify-content: space-between;
@@ -136,8 +130,11 @@
   h2{
     width: 100%;
   }
-  .restaurent__card{
+  .serveur__card{
     width: 48%;
+    &--full{
+      margin: 0 auto;
+    }
   }  
   }
 }

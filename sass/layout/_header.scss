@@ -1,12 +1,17 @@
+@font-face {
+  font-family: "Genjiro";
+  src: url(../../public/font/Genjiro.ttf) format("truetype");
+}
 .header__container {
   display: flex;
   align-items: center;
   width: 100%;
   padding: 25px 0 10px 0;
   box-shadow: $shadow;
-  img {
-    width: 180px;
-    margin: 0 auto;
+  span {
+    display: flex;
+    font-size: 48px;
+    font-family: "Genjiro";
   }
   a {
     display: flex;
@@ -18,5 +23,22 @@
   }
   i {
     color: $color-footer;
+  }
+  .logo__container{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .logo{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    margin-right: -40px;
+    margin-left: -40px;
+    img{
+      width: 100%;
+      object-fit: cover;
+      object-position: 50% 0px;
+    }
   }
 }

@@ -5,16 +5,10 @@ footer {
     margin: 0 auto;
     padding: 20px 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-end;
     gap: 10px;
-  }
-  img {
-    filter: invert(100%);
-    width: 130px;
-    margin-bottom: 10px;
-  }
-  .footer__info {
-    display: flex;
+    flex-wrap: wrap;
   }
   a {
     display: flex;
@@ -22,5 +16,20 @@ footer {
     color: #fff;
     gap: 10px;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px;
+    p{
+      font-family: "Shrikhand", cursive;
+      font-size: 18px;
+    }
+  }
+}
+@media screen and (min-width: $query) {
+  footer{
+    .footer__container{
+      flex-direction: row;
+      justify-content: flex-end;
+    }
   }
 }

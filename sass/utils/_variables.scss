@@ -1,19 +1,19 @@
-$color-primary: #9356dc;
-$color-secondary: #ff79da;
-$color-tertiary: #99e2d0;
+$color-primary: #5AFFDE;
+$color-secondary: #DA61A6;
+$color-tertiary: #B9F0F2;
 $color-ville: #eaeaea;
 $color-font: #f6f6f6;
 $color-footer: #353535;
 $color-primary-light: rgba($color-primary, 0.8);
 $color-secondary-light: rgba($color-secondary, 0.8);
-$color-nouveau: #008766;
+$color-nouveau: #18453C;
 
 $margin: 50px 15px;
 
 $color-btn: linear-gradient(
-  0deg,
-  rgba(147, 86, 220, 1) 0%,
-  rgba(255, 121, 218, 1) 100%
+  45deg,
+  $color-primary 0%,
+  $color-secondary 100%
 );
 
 $shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);

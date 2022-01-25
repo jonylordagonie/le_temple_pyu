@@ -4,43 +4,45 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="public/css/prefixed/style.css">
+  <link rel="stylesheet" href="public/css/style.css">
   <script src="https://kit.fontawesome.com/c9edb6d62a.js" crossorigin="anonymous"></script>
-  <title>Ohmyfood!</title>
+  <title>Temple Pyu!</title>
 </head>
 <body>
+  <!--Loader
   <div class="loader__container">
-    <span>Ohmyfood !</span>
-    <div class="loader">
-      <div class="load__point point--1"></div>
-      <div class="load__point point--2"></div>
-      <div class="load__point point--3"></div>
-      <div class="load__point point--4"></div>
-      <div class="load__point point--5"></div>
-    </div>
+    <div class="spinner spinner--1"></div>
+    <div class="spinner spinner--2"></div>
+    <div class="spinner spinner--3"></div>
+    <span class="loader__title">Le temple Pyu</span>
   </div>
+  -->
   <!-- Herder -->
   <header>
     <div class="header__container">
-      <img src="public/img/logo/ohmyfood.png" alt="logo">
+      <div class="logo__container">
+      <div class="logo">
+        <img src="public/img/logo/merci.png" alt="">
+      </div>
+      <span>Le temple Pyu</span>
+      </div>
     </div>
   </header>
   <!-- Main -->
   <main>
     <!-- Reservation -->
     <section class="reservation">
-      <form action="#" method="get" id="reservation__ville">
-        <i class="fas fa-map-marker-alt map"></i>
-        <input type="search" id="search" placeholder="Paris, Belleville">
-      </form>
       <div class="reservation__exploration">
-        <h1>Réservez le menu qui vous convient</h1>
-        <p>Découvrez des restaurents d'exception, séléctionnés par nos soins.</p>
-        <button class="btn">Explorer nos restaurants</button>
+        <h1>Un serveur à la hauteur de vos espérence</h1>
+        <p>Serveur de la communautée de Pyumiko.</p>
+        <form method="get" action="/presentation.html">
+          <button class="btn" type="submit">Explorez notre univers</button>
+        </form>
       </div>
     </section>
     <!-- Fonctionnement -->
     <div class="site__container">
+      <!--
       <section class="fonctionnement">
         <div class="fonctionnement__container">
           <h2>Fonctionnement</h2>
@@ -61,92 +63,45 @@
           </div>
         </div>
       </section>
-      <!-- Restaurents -->
-      <section class="restaurent">
-        <div class="restaurent__container">
-          <h2>Restaurants</h2>
-          <div class="restaurent__card">
-            <a href="palette.html">
-              <p class="nouveau">Nouveau</p>
-              <img src="public/img/restaurants/palette_gout.jpg" alt="Restaurant La palette du goût">
-              <div class="restaurent__info__container">
-                <div class="restaurent__card__info">
-                  <h3>La palette du goût</h3>
-                  <p>Mélilmontant</p>
+      -->
+      <!-- serveurs -->
+      <section class="serveur">
+        <div class="serveur__container">
+          <h2>Notre serveur</h2>
+          <div class="serveur__card">
+            <a href="presentation.html">
+              <img src="public/img/presentation/2022-01-25_18.18.10.png" alt="Image du serveur Minecraft" class="lore">
+              <div class="serveur__info__container">
+                <div class="serveur__card__info">
+                  <h3>Présentation du serveur</h3>
+                  <p>Découvrez notre vison du jeu</p>
                 </div>
 
               </div>
             </a>
-            <div class="heart">
-              <svg class="" viewBox="0 0 32 32">
-                <linearGradient id="lgrad" x1="0%" y1="50%" x2="100%" y2="50%">
-                  <stop offset="0%" style="stop-color:rgb(147,86,220);stop-opacity:1.00" />
-                  <stop offset="100%" style="stop-color:rgb(255,121,218);stop-opacity:1.00" />
-                </linearGradient>
-                <path class="heart--1"
-                  d="M16,28.261c0,0-14-7.926-14-17.046c0-9.356,13.159-10.399,14-0.454c1.011-9.938,14-8.903,14,0.454C30,20.335,16,28.261,16,28.261z" />
-                <path class="heart--2"
-                  d="M16,28.261c0,0-14-7.926-14-17.046c0-9.356,13.159-10.399,14-0.454c1.011-9.938,14-8.903,14,0.454C30,20.335,16,28.261,16,28.261z" />
-              </svg>
-            </div>
           </div>
-          <div class="restaurent__card">
-            <a href="enchantee.html">
+          <div class="serveur__card">
+            <a href="rejoindre-la-communautee.html">
               <p class="nouveau">Nouveau</p>
-              <img src="public/img/restaurants/note_enchantee.jpg" alt="Restaurant La note enchantée">
-              <div class="restaurent__info__container">
-                <div class="restaurent__card__info">
-                  <h3>La note enchantée</h3>
-                  <p>Charonne</p>
+              <img src="public/img/presentation/commu.png" alt="Image de plusieurs maison asiatique sur minecraft">
+              <div class="serveur__info__container">
+                <div class="serveur__card__info">
+                  <h3>Rejoindre la communautée</h3>
+                  <p>Comment accéder à notre serveur</p>
                 </div>
               </div>
             </a>
-            <div class="heart">
-              <svg class="" viewBox="0 0 32 32">
-                <path class="heart--1"
-                  d="M16,28.261c0,0-14-7.926-14-17.046c0-9.356,13.159-10.399,14-0.454c1.011-9.938,14-8.903,14,0.454C30,20.335,16,28.261,16,28.261z" />
-                <path class="heart--2"
-                  d="M16,28.261c0,0-14-7.926-14-17.046c0-9.356,13.159-10.399,14-0.454c1.011-9.938,14-8.903,14,0.454C30,20.335,16,28.261,16,28.261z" />
-              </svg>
-            </div>
           </div>
-          <div class="restaurent__card">
-            <a href="francaise.html">
-              <img src="public/img/restaurants/francaise.jpg" alt="Restaurant A la française">
-              <div class="restaurent__info__container">
-                <div class="restaurent__card__info">
-                  <h3>À la française</h3>
-                  <p>Cité Rouge</p>
+          <div class="serveur__card serveur__card--full">
+            <a href="staff.html">
+              <img src="public/img/presentation/staff_democraft.png" alt="Skin de minecraft en costume faisant coucou">
+              <div class="serveur__info__container">
+                <div class="serveur__card__info">
+                  <h3>Notre équipe</h3>
+                  <p>Faîtes la connaissance du staff du temple Pyu</p>
                 </div>
               </div>
             </a>
-            <div class="heart">
-              <svg class="" viewBox="0 0 32 32">
-                <path class="heart--1"
-                  d="M16,28.261c0,0-14-7.926-14-17.046c0-9.356,13.159-10.399,14-0.454c1.011-9.938,14-8.903,14,0.454C30,20.335,16,28.261,16,28.261z" />
-                <path class="heart--2"
-                  d="M16,28.261c0,0-14-7.926-14-17.046c0-9.356,13.159-10.399,14-0.454c1.011-9.938,14-8.903,14,0.454C30,20.335,16,28.261,16,28.261z" />
-              </svg>
-            </div>
-          </div>
-          <div class="restaurent__card">
-            <a href="delice.html">
-              <img src="public/img/restaurants/delice_sens.jpg" alt="Restaurant Le délice des sens">
-              <div class="restaurent__info__container">
-                <div class="restaurent__card__info">
-                  <h3>Le délice des sens</h3>
-                  <p>Folie-Méricourt</p>
-                </div>
-              </div>
-            </a>
-            <div class="heart">
-              <svg class="" viewBox="0 0 32 32">
-                <path class="heart--1"
-                  d="M16,28.261c0,0-14-7.926-14-17.046c0-9.356,13.159-10.399,14-0.454c1.011-9.938,14-8.903,14,0.454C30,20.335,16,28.261,16,28.261z" />
-                <path class="heart--2"
-                  d="M16,28.261c0,0-14-7.926-14-17.046c0-9.356,13.159-10.399,14-0.454c1.011-9.938,14-8.903,14,0.454C30,20.335,16,28.261,16,28.261z" />
-              </svg>
-            </div>
           </div>
         </div>
       </section>
@@ -155,26 +110,14 @@
   <!-- Footer -->
   <footer>
     <div class="footer__container">
-      <img src="public/img/logo/ohmyfood.png" alt="logo">
-      <div class="footer__info">
-        <a href="#">
-          <i class="fas fa-utensils"></i>
-          <p>Proposer un restaurant</p>
-        </a>
-      </div>
-      <div class="footer__info">
-        <a href="#">
-          <i class="fas fa-handshake"></i>
-          <p>Devenir partenaire</p>
-        </a>
-      </div>
-      <a href="#">
-        <p>Mentions Légales</p>
+      <a href="https://discord.gg/t85GD2qp7c">
+        <i class="fab fa-discord fa-2x"></i>
+        <p>Discord</p>
       </a>
-      <a href="mailto:contact@ohmyfood.fr">
-        <p>Contact</p>
+      <a href="https://www.twitch.tv/pyumiko">
+        <i class="fab fa-twitch fa-2x"></i>
+        <p>Twitch</p>
       </a>
-    </div>
   </footer>
 </body>
 </html>
